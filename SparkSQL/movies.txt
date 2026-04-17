@@ -1,0 +1,36 @@
+Tittle,Genre,Collection,imdb
+Inception,Sci-Fi,836,8.8
+Titanic,Romance,2200,7.9
+Avatar,Sci-Fi,2923,7.8
+The Dark Knight,Action,1005,9.0
+Avengers: Endgame,Action,2798,8.4
+Joker,Drama,1074,8.4
+Frozen,Animation,1200,7.6
+The Lion King,Animation,1657,8.5
+Jurassic World,Adventure,1671,7.0
+Spider-Man: No Way Home,Action,2024,8.3
+Interstellar,Sci-Fi,701,8.7
+Black Panther,Action,1347,7.3
+Doctor Strange,Fantasy,677,7.5
+Harry Potter and the Deathly Hallows,Fantasy,1341,8.1
+The Matrix,Sci-Fi,467,8.7
+Gladiator,Action,465,8.5
+Shrek,Animation,487,7.9
+Deadpool,Action,782,8.0Inception,Sci-Fi,836,8.8
+Titanic,Romance,2200,7.9
+Avatar,Sci-Fi,2923,7.8
+The Dark Knight,Action,1005,9.0
+Avengers: Endgame,Action,2798,8.4
+Joker,Drama,1074,8.4
+Frozen,Animation,1200,7.6
+The Lion King,Animation,1657,8.5
+Jurassic World,Adventure,1671,7.0
+Spider-Man: No Way Home,Action,2024,8.3
+Interstellar,Sci-Fi,701,8.7
+Black Panther,Action,1347,7.3
+Doctor Strange,Fantasy,677,7.5
+Harry Potter and the Deathly Hallows,Fantasy,1341,8.1
+The Matrix,Sci-Fi,467,8.7
+Gladiator,Action,465,8.5
+Shrek,Animation,487,7.9
+Deadpool,Action,782,8.0
