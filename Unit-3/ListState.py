@@ -2,7 +2,6 @@ from pyflink.datastream.functions import KeyedProcessFunction
 from pyflink.datastream.state import ListStateDescriptor
 from pyflink.common import Types
 
-
 class PurchaseHistory(KeyedProcessFunction):
 	"""A simple KeyedProcessFunction that keeps a list of purchases per key.
 
