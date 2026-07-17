@@ -12,10 +12,7 @@ lines = env.from_collection(
 	type_info=Types.STRING(),
 )
 
-words = lines.flat_map(
-	lambda x: x.split(" "),
-	output_type=Types.STRING(),
-)
+words = lines.flat_map(lambda x: x.split(" "))
 
 words.print()
 env.execute("Word Splitting using flat_map")

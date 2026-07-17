@@ -59,3 +59,31 @@ class RunningTotal(KeyedValueFunction):
 		total=total+value[1]
 		self.total.update(total)
 		yield(value[0],total)
+
+
+
+
+
+
+
+
+from pyflink.datastream.functions import KeyedProcessFunction
+from pyflink.datastream.state import ValueStateDescriptor
+from pyflink.common import Types
+
+class RunningTotal(KeyedProcessFunction):
+	def open(self, running_context):
+		desc=ValueStateDescriptor("total",Types.INT())
+		self.total=running_context.get(desc)
+
+	def process_element(self, ctx, value):
+		total=self.total.value()
+		if total is None:
+			total=0
+		total=total+value[1]
+		self.total.update(total)
+		yield(value[0],total)
+
+
+
+
